@@ -1,2 +1,40 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Arquivos de compilação e artefatos
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.dylib
+*.dll
+
+# Arquivos de log
+*.log
+
+# Diretórios de cache
+*.cache/
+*.pytest_cache/
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Dependências de ambientes virtuais (se você estiver usando um ambiente virtual)
+venv/
+env/
+
+# Arquivos de teste
+test_results/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de compilação de pacotes (se você usar alguma ferramenta de empacotamento)
+build/
+dist/
+*.egg-info/
+
+# Outros arquivos que você não quer rastrear
+*.bak
+*.tmp
